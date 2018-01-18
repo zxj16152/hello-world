@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileFilter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -42,6 +44,12 @@ public class ImmutableTest {
         System.out.println("unmodifiableList add a item after list:"+unmodifiableList);
 
         list.stream();
+
+        File[] hiddenFiles = new File(".").listFiles(new FileFilter() {
+            public boolean accept(File file) {
+                return file.isHidden();
+            }
+        });
 
 
     }
