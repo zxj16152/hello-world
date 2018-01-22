@@ -2,6 +2,10 @@ public class Person {
     private String name;
     int age;
 
+    public Person(Integer integer) {
+        this.age=integer;
+    }
+
 
     public String getName() {
         return name;
@@ -21,6 +25,6 @@ public class Person {
     }
 
     //<editor-fold desc="Description">
-    int i = 1 / 0;
+//    int i = 1 / 0;
     //</editor-fold>
 }

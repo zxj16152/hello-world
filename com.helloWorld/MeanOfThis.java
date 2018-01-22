@@ -16,6 +16,7 @@ public class MeanOfThis {
             public void run() {
                 int value = 10;
                 System.out.println(this.value);
+                System.out.println(value);
             }
         };
         r.run();

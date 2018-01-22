@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 import org.junit.Test;
@@ -17,7 +18,8 @@ public class ImmutableTest {
         list.add("b");
         list.add("c");
         int[] a={1,3,5,5,6,7,7};
-        
+
+
         System.out.println(list);
         if (list.isEmpty()) {
 
