@@ -1,6 +1,9 @@
 package threadTest;
 
+import java.nio.Buffer;
+import java.util.*;
 import java.util.concurrent.*;
+import java.util.stream.Collectors;
 
 /**
  * User: zhouxinjian
@@ -23,7 +26,9 @@ public class AtomicityTest implements Runnable {
     public void run() {
         while (true){
             evenIncrement();
+
         }
+
     }
     public static void main(String[] args){
         ExecutorService exec = Executors.newCachedThreadPool();
