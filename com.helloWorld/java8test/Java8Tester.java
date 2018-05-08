@@ -1,5 +1,7 @@
 package java8test;
 
+import java.util.Optional;
+
 /**
  * User: xinjian.zhou
  * Mail: xinjian.zhou@phicomm.com
@@ -63,6 +65,9 @@ public class Java8Tester {
         public static void main(String args[]){
             GreetingService greetService1 = message -> System.out.println(salutation + message);
 //            greetService1.sayMessage("Runoob");
+            Object o=null;
+            Object object = Optional.ofNullable(o).orElseGet(()->new Object());
+            System.out.println(o.hashCode());
         }
 
         interface GreetingService {
