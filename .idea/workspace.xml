@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80f25461-79fa-4efa-9256-429ad8e58e74" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/com.helloWorld/java8test/Java8Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.helloWorld/java8test/Java8Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,15 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VisibleForTesting.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/guava-18.0-sources.jar!/com/google/common/annotations/VisibleForTesting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Finalizer.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ideaLibSources/guava-18.0-sources.jar!/com/google/common/base/internal/Finalizer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Java8Tester.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Java8Tester.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.helloWorld/java8test/Java8Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+            <state relative-caret-position="1748">
+              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestExampleTypeList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com.helloWorld/TestExampleTypeList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -164,6 +164,7 @@
         <option value="$PROJECT_DIR$/com.helloWorld/java8test/java8test.java" />
         <option value="$PROJECT_DIR$/com.helloWorld/fastjsonTest/Test1.java" />
         <option value="$PROJECT_DIR$/com.helloWorld/java8test/Java8Tester.java" />
+        <option value="$PROJECT_DIR$/com.helloWorld/TestExampleTypeList.java" />
       </list>
     </option>
   </component>
@@ -189,8 +190,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="194" />
+    <option name="y" value="27" />
+    <option name="width" value="1503" />
+    <option name="height" value="997" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -245,15 +248,67 @@
             <path>
               <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-world" type="462c0819:PsiDirectoryNode" />
-              <item name="com.helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="java8test" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="ab9368bb:PsiFileNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -264,11 +319,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="findjar.last.used.dir" value="$MAVEN_REPOSITORY$" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\hello-world\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Java8Tester (1)">
+  <component name="RunManager" selected="Application.TestExampleTypeList">
     <configuration name="Java8Tester (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8test.Java8Tester" />
       <module name="HelloWorld" />
@@ -293,16 +354,6 @@
       <module name="HelloWorld" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="NIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.NIOTest" />
-      <module name="HelloWorld" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="clone.test.Student" />
       <module name="HelloWorld" />
@@ -312,6 +363,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="TestExampleTypeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestExampleTypeList" />
+      <module name="HelloWorld" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
     <configuration name="TestMasterWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="master_worker.TestMasterWorker" />
@@ -327,19 +383,19 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
     <list>
-      <item itemvalue="Application.NIOTest" />
       <item itemvalue="Application.Student" />
       <item itemvalue="Application.TestMasterWorker" />
       <item itemvalue="Application.Java8Tester" />
       <item itemvalue="Application.Java8Tester (1)" />
+      <item itemvalue="Application.TestExampleTypeList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestExampleTypeList" />
         <item itemvalue="Application.Java8Tester (1)" />
         <item itemvalue="Application.Java8Tester" />
         <item itemvalue="Application.TestMasterWorker" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application.NIOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -403,6 +459,9 @@
       <workItem from="1524815920830" duration="790000" />
       <workItem from="1524878055528" duration="599000" />
       <workItem from="1525763589241" duration="317000" />
+      <workItem from="1525769222891" duration="1423000" />
+      <workItem from="1525830483166" duration="2068000" />
+      <workItem from="1526030233560" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1516092812931</created>
@@ -449,7 +508,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110512000" />
+    <option name="totallyTimeSpent" value="114978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,11 +529,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5032017" side_tool="true" weight="0.33442622" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32938644" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.495116" weight="0.38797814" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4967983" weight="0.3431694" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.495116" visible="true" weight="0.38797814" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4967983" weight="0.34242094" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4946565" visible="true" weight="0.22518677" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4946565" visible="true" weight="0.17982924" />
       <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
       <window_info id="Structure" order="1" sideWeight="0.49245283" side_tool="true" weight="0.22893773" />
       <window_info id="UI Designer" order="4" />
@@ -495,9 +554,9 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.495116" weight="0.3887114" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -509,7 +568,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="right" x="100" y="100" width="1480" height="850" id="Documentation" order="9" type="FLOATING" />
       <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -612,16 +671,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.helloWorld/baseencodeanddecode/Java8Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Arrays.java" />
     <entry file="file://$PROJECT_DIR$/com.helloWorld/Person.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -808,20 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/guava-18.0-sources.jar!/com/google/common/annotations/VisibleForTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/guava-18.0-sources.jar!/com/google/common/base/internal/Finalizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/guava-18.0-sources.jar!/com/google/common/base/Joiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -862,8 +897,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com.helloWorld/java8test/Java8Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        <state relative-caret-position="1748">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/guava-18.0-sources.jar!/com/google/common/annotations/VisibleForTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/guava-18.0-sources.jar!/com/google/common/base/internal/Finalizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.helloWorld/TestExampleTypeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
         </state>
       </provider>
     </entry>
